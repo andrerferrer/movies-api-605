@@ -1,6 +1,6 @@
 const insertIntoTheDOM = (movie) => {
   const movieHTML = `
-    <li class="list-group-item">
+    <li class="col list-group-item">
       <p>${movie.Title}</p>
       <img style='height: 240px;' src='${movie.Poster}'>
     </li>

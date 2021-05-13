@@ -1,13 +1,9 @@
 ## Usage
 
-First clone this repository to your laptop. You must have Node (> v4) and [yarn](https://yarnpkg.com/lang/en/docs/install/) installed.
-
 ```bash
-BATCH=605
-
 cd ~/code/$USER
-git clone git@github.com:andrerferrer/$BATCH-get-api.git get-api
-cd get-api
+git clone git@github.com:andrerferrer/movies-api-605.git 
+cd movies-api-605
 yarn install
 stt # Open this folder in Sublime Text
 webpack-dev-server
